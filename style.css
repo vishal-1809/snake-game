@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url('https://i.pinimg.com/originals/6c/1e/d3/6c1ed3702bb041e5173dfb4aac2cea2d.jpg'); */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK5uhICWEcOVjNwKTppXW5iFcjFj5XlBX8xA&usqp=CAU');
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    /* color: white; */
+}
+
+.btn {
+    background-color: rgb(14, 11, 11);
+    color: rgb(7, 172, 7);
+}
+
+.btn:hover {
+    color: white;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    grid-gap: 2px;
+    background-image: url('https://www.solidbackgrounds.com/images/1280x1024/1280x1024-bright-green-solid-color-background.jpg');
+    background-size: cover;
+}
+
+.box {
+    height: 15px;
+    width: 15px;
+    /* border: 2px solid black; */
+}
+
+.apple {
+    background-color: red;
+    border-radius: 15px;
+}
+
+.snake {
+    background-color: blue;
+}
+
+.round {
+    border-radius: 15px;
+}
+
+.gameover {
+    color: red;
+    font-size: larger;
+    font-weight: 1000;
+    display: none;
+}
+
+.disp {
+    display: block;
+}
