@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         speed = 0.9;
         time = 1000;
         pre = 37;
+        over.classList.remove('disp');
         apple = generate_apple();
         snake.forEach(index => box[snake[index]].classList.add('snake'));
         interval = setInterval(gameon, time);
